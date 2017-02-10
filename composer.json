@@ -1,0 +1,28 @@
+{
+    "name": "chrismitchell/design-patterns",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "chumanfu",
+            "email": "christopher.mitchell.79@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": 
+    {
+        "psr-4":
+        { 
+            "DesignPatterns\\": "src/" 
+        }
+    },
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "DesignPatterns\\Tests\\": "tests/"
+        }
+    }
+}
